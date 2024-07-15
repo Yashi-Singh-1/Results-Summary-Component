@@ -23,11 +23,11 @@ Hey there! I build a results summary component using just HTML and CSS. The key 
 
 Desktop Preview
 
-![Desktop Preview](image\Desktop-Preview.png)
+![Desktop Preview](image/Desktop-Preview.png)
 
 Mobile Preview
 
-![Mobile Preview](image\Mobile-Preiew.png)
+![Mobile Preview](image/Mobile-Preiew.png)
 
 ### Links
 
@@ -52,15 +52,15 @@ Working on this project has been a great learning experience, and here are some 
 
 #### Semantic HTML5 Markup
 Using semantic elements like <section>, <div>, <h3>, and <p> helped me structure the content meaningfully. Here's an example of how I used semantic elements effectively:
-
+<pre>
 <section class="summary">
   <h3>Summary</h3>
   <!-- Other semantic elements used here -->
 </section>
-
+</pre>
 #### CSS Custom Properties (Variables)
 CSS custom properties (--variables) proved invaluable for maintaining consistent styling across the project. Here's how I defined and used them:
-
+<pre>
 :root {
   --light-red: hsl(0, 100%, 67%);
   --orangey-yellow: hsl(39, 100%, 56%);
@@ -70,10 +70,11 @@ CSS custom properties (--variables) proved invaluable for maintaining consistent
 .result .great {
   color: var(--orangey-yellow);
 }
+</pre>
 
 #### Flexbox for Responsive Layouts
 Flexbox (display: flex) was crucial for creating flexible layouts, especially within the .container and .result sections. It simplified alignment and distribution of elements:
-
+<pre>
 .container {
   display: flex;
   flex-direction: column;
@@ -85,10 +86,10 @@ Flexbox (display: flex) was crucial for creating flexible layouts, especially wi
   flex: 1;
   text-align: center;
 }
-
+</pre>
 #### Media Queries for Mobile-First Design
 Implementing media queries (@media (max-width: 630px)) ensured the design was responsive and optimized for various screen sizes. Here's how I adjusted styles for smaller screens:
-
+<pre>
 @media (max-width: 630px) {
   .result .score {
     width: 35vw;
@@ -97,14 +98,14 @@ Implementing media queries (@media (max-width: 630px)) ensured the design was re
   
   /* Other responsive adjustments */
 }
-
+</pre>
 #### External Dependencies Management
 Integrating Google Fonts and local images (<img> tags) required understanding how to link external resources and optimize loading times:
-
+<pre>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap">
 
 <img src="image/icon-reaction.svg" alt="Reaction Icon" width="24" height="24">
-
+</pre>
 These learnings have not only improved my understanding of front-end development but also enhanced my ability to create responsive, visually appealing web interfaces using modern HTML and CSS techniques.
 
 ## Author
