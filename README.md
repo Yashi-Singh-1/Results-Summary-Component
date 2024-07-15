@@ -31,7 +31,7 @@ Mobile Preview
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://results-summary-component-by-yashi.netlify.app/)
+- Live Site URL: [live site ](https://results-summary-component-by-yashi.netlify.app/)
 
 ## My process
 
