@@ -31,7 +31,7 @@ Mobile Preview
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://results-summary-component-by-yashi.netlify.app/)
 
 ## My process
 
@@ -51,17 +51,20 @@ Mobile Preview
 Working on this project has been a great learning experience, and here are some key takeaways:
 
 #### Semantic HTML5 Markup
-Using semantic elements like <section>, <div>, <h3>, and <p> helped me structure the content meaningfully. Here's an example of how I used semantic elements effectively:
-<pre>
-<section class="summary">
-  <h3>Summary</h3>
-  <!-- Other semantic elements used here -->
-</section>
-</pre>
-#### CSS Custom Properties (Variables)
-CSS custom properties (--variables) proved invaluable for maintaining consistent styling across the project. Here's how I defined and used them:
-<pre>
-:root {
+ <p>Working on this project has been a great learning experience, and here are some key takeaways:</p>
+            <section>
+                <h4>Semantic HTML5 Markup</h4>
+                <p>Using semantic elements like &lt;section&gt;, &lt;div&gt;, &lt;h3&gt;, and &lt;p&gt; helped me structure the content meaningfully.</p>
+                <pre><code>&lt;section class="summary"&gt;
+  &lt;h3&gt;Summary&lt;/h3&gt;
+  &lt;!-- Other semantic elements used here --&gt;
+&lt;/section&gt;
+                </code></pre>
+            </section>
+            <section>
+                <h4>CSS Custom Properties (Variables)</h4>
+                <p>CSS custom properties (--variables) proved invaluable for maintaining consistent styling across the project.</p>
+                <pre><code>:root {
   --light-red: hsl(0, 100%, 67%);
   --orangey-yellow: hsl(39, 100%, 56%);
   /* Define other variables */
@@ -70,12 +73,12 @@ CSS custom properties (--variables) proved invaluable for maintaining consistent
 .result .great {
   color: var(--orangey-yellow);
 }
-</pre>
-
-#### Flexbox for Responsive Layouts
-Flexbox (display: flex) was crucial for creating flexible layouts, especially within the .container and .result sections. It simplified alignment and distribution of elements:
-<pre>
-.container {
+                </code></pre>
+            </section>
+            <section>
+                <h4>Flexbox for Responsive Layouts</h4>
+                <p>Flexbox (display: flex) was crucial for creating flexible layouts, especially within the .container and .result sections.</p>
+                <pre><code>.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,11 +89,12 @@ Flexbox (display: flex) was crucial for creating flexible layouts, especially wi
   flex: 1;
   text-align: center;
 }
-</pre>
-#### Media Queries for Mobile-First Design
-Implementing media queries (@media (max-width: 630px)) ensured the design was responsive and optimized for various screen sizes. Here's how I adjusted styles for smaller screens:
-<pre>
-@media (max-width: 630px) {
+                </code></pre>
+            </section>
+            <section>
+                <h4>Media Queries for Mobile-First Design</h4>
+                <p>Implementing media queries (@media (max-width: 630px)) ensured the design was responsive and optimized for various screen sizes.</p>
+                <pre><code>@media (max-width: 630px) {
   .result .score {
     width: 35vw;
     height: 35vw;
@@ -98,15 +102,18 @@ Implementing media queries (@media (max-width: 630px)) ensured the design was re
   
   /* Other responsive adjustments */
 }
-</pre>
-#### External Dependencies Management
-Integrating Google Fonts and local images (<img> tags) required understanding how to link external resources and optimize loading times:
-<pre>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap">
+                </code></pre>
+            </section>
+            <section>
+                <h4>External Dependencies Management</h4>
+                <p>Integrating Google Fonts and local images (&lt;img&gt; tags) required understanding how to link external resources and optimize loading times.</p>
+                <pre><code>&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"&gt;
 
-<img src="image/icon-reaction.svg" alt="Reaction Icon" width="24" height="24">
-</pre>
-These learnings have not only improved my understanding of front-end development but also enhanced my ability to create responsive, visually appealing web interfaces using modern HTML and CSS techniques.
+&lt;img src="image/icon-reaction.svg" alt="Reaction Icon" width="24" height="24"&gt;
+                </code></pre>
+            </section>
+        </section>
+    </section>
 
 ## Author
 
